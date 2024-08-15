@@ -1,0 +1,129 @@
+/* 
+
+Author: Jake Gomez
+Date: 8/14/2024
+File: other.css
+
+
+*/
+
+main {
+    background-color: #ffffff;
+    padding: 10px;
+    border-left: 5px solid #ff0000;
+    border-right: 5px solid #ff0000;
+}
+
+section#deals {
+    padding: 10px;
+    gap: 20px;
+}
+
+section#deals div {
+    position: relative;
+    border: 2px dashed rgb(120, 0, 16);
+}
+
+section#deals div:nth-child(1),
+section#deals div:nth-child(3),
+section#deals div:nth-child(7),
+section#deals div:nth-child(9) {
+    background-color: #FEC2C6;
+}
+
+section#deals div:nth-child(2),
+section#deals div:nth-child(4),
+section#deals div:nth-child(6),
+section#deals div:nth-child(8) {
+    background-color: #E7E7E7;
+}
+
+nav.vertical {
+    margin-top: 24px;
+    padding-left: 15px;
+}
+
+nav.vertical ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.vertical ul li {
+    background: linear-gradient(to right, #9a1417, transparent);
+    border-radius: 5px 0 0 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+nav.vertical ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav.horizontal {
+    background-color: rgb(154, 20, 23);
+    text-align: left;
+    align-items: center;
+}
+
+nav.horizontal ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.horizontal li {
+    display: inline-block;
+}
+
+nav.horizontal a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+}
+
+nav.horizontal a:first-child {
+    margin-left: 0;
+}
+
+nav.horizontal a:hover {
+    background-color: rgb(123, 15, 17);
+}
+
+aside {
+    padding: 10px;
+}
+
+aside ul li {
+    background: linear-gradient(to right, #d3d3d3, rgb(154, 20, 23));
+    border: 2px solid rgb(120, 0, 16);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    height: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('parlor.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
